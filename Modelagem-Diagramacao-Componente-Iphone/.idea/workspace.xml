@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d730563-fba8-481e-acce-22210d88117c" name="Changes" comment="addMusic and generi&#10;c ReprodutorMusical methods implementation in main class" />
+    <list default="true" id="4d730563-fba8-481e-acce-22210d88117c" name="Changes" comment="addMusic and generi&#10;c ReprodutorMusical methods implementation in main class">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/phone/model/Iphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phone/model/Iphone.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,16 +36,38 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Iphone.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "dev",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/akira/playground/java/claro-bootcamp/Modelagem-Diagramacao-Componente-Iphone"
+    "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/akira/playground/java/claro-bootcamp/Modelagem-Diagramacao-Componente-Iphone",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu-20.04\home\akira\playground\java\Modelagem-Diagramacao-Componente-Iphone" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Iphone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.phone.model.Iphone" />
+      <module name="Modelagem-Diagramacao-Componente-Iphone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.phone.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Iphone" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,6 +92,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="addMusic and generi&#10;c ReprodutorMusical methods implementation in main class" />
     <option name="LAST_COMMIT_MESSAGE" value="addMusic and generi&#10;c ReprodutorMusical methods implementation in main class" />
   </component>

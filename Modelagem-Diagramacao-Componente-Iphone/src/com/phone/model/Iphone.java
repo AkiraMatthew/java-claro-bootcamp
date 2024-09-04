@@ -4,10 +4,37 @@ import com.phone.service.ModuloTelefonico;
 import com.phone.service.NavegadorWeb;
 import com.phone.service.ReprodutorMusical;
 
+//import java.util.List;
 import java.util.Scanner;
 
 public class Iphone implements ModuloTelefonico, NavegadorWeb, ReprodutorMusical {
     Scanner terminal = new Scanner(System.in);
+
+    // Main method to run the application
+    public static void main(String[] args) {
+        Iphone iphone = new Iphone();
+
+        // Example usage of the implemented methods
+        iphone.play();
+        iphone.pause();
+        iphone.stop();
+
+        String[] musics = iphone.addMusic();
+        System.out.println("Músicas adicionadas:");
+        for (String music : musics) {
+            System.out.println("- " + music);
+        }
+        // We can also solve it with List implementation
+        /*List<String> musics = List.of(iphone.addMusic());
+        System.out.println(musics);*/
+
+        iphone.call();
+        iphone.answerCall();
+
+        iphone.openTab();
+        iphone.search();
+        iphone.closeTab();
+    }
 
     //Music Player methods
     public void play() {
