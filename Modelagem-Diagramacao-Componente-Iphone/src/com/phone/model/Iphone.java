@@ -24,9 +24,10 @@ public class Iphone implements ModuloTelefonico, NavegadorWeb, ReprodutorMusical
 
     }
 
-    @Override
+    //This is a demonstrative method to simulate a user adding a music through terminal interaction
     public String[] addMusic(String music) {
         String[] choosenMusics = {""};
+        //chooseMusic = true means that the user is on the music registration menu
         boolean chooseMusic = true;
         do{
             for(int i = 0; i < choosenMusics.length; i++){
