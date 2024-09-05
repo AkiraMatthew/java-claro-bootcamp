@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4d730563-fba8-481e-acce-22210d88117c" name="Changes" comment="addMusic and generi&#10;c ReprodutorMusical methods implementation in main class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/phone/model/Iphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phone/model/Iphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/phone/service/ReprodutorMusical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/phone/service/ReprodutorMusical.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,7 @@
     "Application.Iphone.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "dev",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/akira/playground/java/claro-bootcamp/Modelagem-Diagramacao-Componente-Iphone",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
