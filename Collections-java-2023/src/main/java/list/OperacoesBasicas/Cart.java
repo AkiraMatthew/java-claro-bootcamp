@@ -7,10 +7,10 @@ public class Cart {
     public static void main(String[] args) {
         Cart cart = new Cart();
 
-        cart.addItem("microondas", 599.90, 30);
-        cart.addItem("xiaomi", 999.90, 40);
+        cart.addItem("microondas", 599.95, 30);
+        cart.addItem("xiaomi", 999.91, 40);
         cart.showItems();
-        cart.calcTotalValue();
+        System.out.println("Total: R$" + cart.calcTotalValue());
     }
 
     //giving to the class the attribute type
